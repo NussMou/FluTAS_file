@@ -14,5 +14,5 @@ export I_MPI_F90=ifort
 module purge
 module load intel/2021.7.0
 module load intelmpi/2021.7.1
-cd /home/hpc/b154dc/b154dc22/FluTAS/FluTAS/examples/two_layer_rb
+cd <now_path>
 time mpirun -np 288 /home/hpc/b154dc/b154dc22/FluTAS/FluTAS/src/flutas.two_phase_ht
