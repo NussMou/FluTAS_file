@@ -22,7 +22,7 @@ LDFLAGS :=
 USE_NVTX = 0
 
 # Required for FFTW
-FFTW_HOME := $ROOT/FluTAS/build
+FFTW_HOME := $ROOT/opt
 LDFLAGS   += -L${FFTW_HOME}/lib -lfftw3
 
 # Required for NVTX
