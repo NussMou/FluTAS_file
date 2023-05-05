@@ -15,4 +15,4 @@ module purge
 module load intel/2021.3.0  
 module load intelmpi/2021.3.0-intel2021.3.0
 cd <now_path>
-time mpirun -np 512 /home/hpc/b154dc/b154dc22/FluTAS/FluTAS/src/flutas.two_phase_ht
+time mpirun -np 512 <ROOT>/FluTAS/src/flutas.two_phase_ht
